@@ -28,7 +28,7 @@ export default function About() {
       <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.5, delay: 0.3 }} className="flex-1 flex justify-center md:justify-end">
         <div className="relative w-72 h-72 md:w-96 md:h-96">
           <div className="absolute inset-0 bg-blue-100 dark:bg-blue-900/30 rounded-full blur-3xl opacity-50 animate-pulse"></div>
-          <img src="https://scontent-hkg1-2.xx.fbcdn.net/v/t39.30808-6/480788737_1360896558614834_8255248760438234398_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=53a332&_nc_ohc=urpvvBb2YsIQ7kNvwFLAgGt&_nc_oc=AdrHuuUCcl_EPD39y3VfVVAMEmFdF5aNZwvsJQY-F7YXwjib6SjWNm2LS77POMCFjsI&_nc_zt=23&_nc_ht=scontent-hkg1-2.xx&_nc_gid=iIu42nmxMJ8ncIZm-xIlhQ&_nc_ss=7a3a8&oh=00_Af2f8XZ4l2AiFmOSZqE_6xdnQqG_TCqGPbR8F6ffIOTN0g&oe=69D86A78" alt="Profile" className="relative z-10 w-full h-full object-cover rounded-full border-4 border-white dark:border-slate-800 shadow-xl" />
+          <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&auto=format&fit=crop" className="relative z-10 w-full h-full object-cover rounded-full border-4 border-white dark:border-slate-800 shadow-xl" />
         </div>
       </motion.div>
     </section>
