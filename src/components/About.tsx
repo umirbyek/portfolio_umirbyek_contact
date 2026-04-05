@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'motion/react';
-import Logo from '../assets/log.jpg';
+import logo from '../assets/profile.jpg';
+
 export default function About() {
   return (
     <section id="about" className="pt-32 pb-20 md:pt-48 md:pb-32 px-6 md:px-12 max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12">
@@ -27,7 +28,7 @@ export default function About() {
       <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.5, delay: 0.3 }} className="flex-1 flex justify-center md:justify-end">
         <div className="relative w-72 h-72 md:w-96 md:h-96">
           <div className="absolute inset-0 bg-blue-100 dark:bg-blue-900/30 rounded-full blur-3xl opacity-50 animate-pulse"></div>
-          <img src={Logo} alt="Profile" className="relative z-10 w-full h-full object-cover rounded-full border-4 border-white dark:border-slate-800 shadow-xl" />
+          <img src={logo} alt="Profile" className="relative z-10 w-full h-full object-cover rounded-full border-4 border-white dark:border-slate-800 shadow-xl" />
         </div>
       </motion.div>
     </section>
