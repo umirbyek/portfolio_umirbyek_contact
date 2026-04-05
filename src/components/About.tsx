@@ -27,7 +27,7 @@ export default function About() {
       <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.5, delay: 0.3 }} className="flex-1 flex justify-center md:justify-end">
         <div className="relative w-72 h-72 md:w-96 md:h-96">
           <div className="absolute inset-0 bg-blue-100 dark:bg-blue-900/30 rounded-full blur-3xl opacity-50 animate-pulse"></div>
-          <img src="/src//assets//log.jpg" alt="Profile" className="relative z-10 w-full h-full object-cover rounded-full border-4 border-white dark:border-slate-800 shadow-xl" />
+          <img src="/src//assets//profile.jpg" alt="Profile" className="relative z-10 w-full h-full object-cover rounded-full border-4 border-white dark:border-slate-800 shadow-xl" />
         </div>
       </motion.div>
     </section>
