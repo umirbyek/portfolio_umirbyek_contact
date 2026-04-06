@@ -6,7 +6,7 @@ export default function About() {
     <section id="about" className="pt-32 pb-20 md:pt-48 md:pb-32 px-6 md:px-12 max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12">
       <div className="flex-1 space-y-6">
      
-          <h2 className="text-blue-600 dark:text-blue-400 font-semibold tracking-wide uppercase text-sm">Сайн байна уу, намайг</h2>
+          <h2 className="text-blue-600 dark:text-blue-400 font-semibold tracking-wide uppercase text-sm">Сайн байна уу, ssнамайг</h2>
           <h1 className="text-5xl md:text-7xl font-bold mt-2 mb-4 tracking-tight text-slate-900 dark:text-white">
           Саулетбай Өмирбек <br/> <span className="text-slate-400 dark:text-slate-500">гэдэг.</span>
           </h1>
@@ -25,7 +25,7 @@ export default function About() {
       </div>
         <div className="relative w-72 h-72 md:w-96 md:h-96">
           <div className="absolute inset-0 bg-blue-100 dark:bg-blue-900/30 rounded-full blur-3xl opacity-50 animate-pulse"></div>
-          <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&auto=format&fit=crop" className="relative z-10 w-full h-full object-cover rounded-full border-4 border-white dark:border-slate-800 shadow-xl" />
+          <img src="/profile.jpg" className="relative z-10 w-full h-full object-cover rounded-full border-4 border-white dark:border-slate-800 shadow-xl" />
         </div>
 
     </section>
