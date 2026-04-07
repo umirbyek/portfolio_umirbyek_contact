@@ -6,7 +6,7 @@ export default function About() {
     <section id="about" className="pt-32 pb-20 md:pt-48 md:pb-32 px-6 md:px-12 max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12">
       <div className="flex-1 space-y-6">
      
-          <h2 className="text-blue-600 dark:text-blue-400 font-semibold tracking-wide uppercase text-sm">Сайн байна уу, ssнамайг</h2>
+          <h2 className="text-blue-600 dark:text-blue-400 font-semibold tracking-wide uppercase text-sm">Сайн байна уу, намайг</h2>
           <h1 className="text-5xl md:text-7xl font-bold mt-2 mb-4 tracking-tight text-slate-900 dark:text-white">
           Саулетбай Өмирбек <br/> <span className="text-slate-400 dark:text-slate-500">гэдэг.</span>
           </h1>
