@@ -13,7 +13,7 @@ export default function Experience() {
           <div className="flex flex-col md:flex-row md:items-center justify-between mb-4 gap-2">
             <div>
               <h3 className="text-xl font-bold text-slate-900 dark:text-white">Вэб хөгжүүлэгч / Frontend developer</h3>
-              <p className="text-lg text-blue-600 dark:text-blue-400 font-medium">Dobu LLC</p>
+              <p className="text-lg text-blue-600 dark:text-blue-400 font-medium">Mono solution LLC</p>
             </div>
             <span className="inline-flex items-center px-3 py-1 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-sm font-medium whitespace-nowrap">
               2023 - 2024
